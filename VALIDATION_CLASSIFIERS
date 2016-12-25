@@ -1,0 +1,28 @@
+Comparison between SVM and other classifiers using validation dataset. We show confussion matrix:
+
+CONFUSSION MATRIX
+
+SVM
+   a   b   <-- classified as
+  22   1 |   a = damaging
+ 454 623 |   b = neutral
+
+RANDOM FOREST
+   a   b   <-- classified as
+  14   9 |   a = damaging
+ 229 848 |   b = neutral
+
+IBK   
+ a   b   <-- classified as
+  13  10 |   a = damaging
+ 252 825 |   b = neutral
+
+SMO
+   a   b   <-- classified as
+  21   2 |   a = damaging
+ 444 633 |   b = neutral
+
+NAÏVE BAYES MULTINOMIAL
+   a   b   <-- classified as
+  19   4 |   a = damaging
+ 445 632 |   b = neutral
