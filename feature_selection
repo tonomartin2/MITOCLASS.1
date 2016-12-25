@@ -1,0 +1,22 @@
+RESULTS OF THE TEST DEVELOPED IN WEKA TO CHECK IF ALL THE FEATURES WERE INTERESTING FOR THE CLASSIFIER.
+
+Evaluation mode:evaluate on all training data
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Best first.
+	Start set: no attributes
+	Search direction: forward
+	Stale search after 5 node expansions
+	Total number of subsets evaluated: 8
+	Merit of best subset found:    0.271
+
+Attribute Subset Evaluator (supervised, Class (nominal): 4 Phenotype):
+	CFS Subset Evaluator
+	Including locally predictive attributes
+
+Selected attributes: 1,2,3 : 3
+                     FREC_DOM
+                     FREC_POS
+                     MI_CI
